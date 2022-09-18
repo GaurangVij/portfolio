@@ -1,0 +1,107 @@
+*{
+    margin: 100;
+    padding: 100;
+    font-family: sans-serif;
+}
+.hero{
+    position: relative;
+    width :"100%";
+    height: 100%;
+    background: #eff4fd;
+    /* margin: ; */
+    padding: 50px;
+}
+nav{
+    display: flex;
+    padding :20px,0;
+    align-items:flex-start;
+    justify-content: space-between;
+    margin: auto;
+    
+}
+.logo{
+    width: 100px;
+    cursor:pointer;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none
+    margin 10px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #000;
+    font: bold;
+    /* hover:red; */
+}
+nav ul li a:hover{
+    color:rebeccapurple;
+}
+li{
+    font-size:large;
+}
+.detel{
+    margin-top: 15%;
+    margin-left: 1%;
+}
+.detel h1{
+    font-size: 50px;
+    color: #212121;
+    margin-bottom: 10%;
+}
+.detel p{
+    color: #555;
+    margin: 1%;
+}
+.detel span{
+    color: orange;
+}
+.detel a{
+    display: inline-block;
+    background-color: black;
+    color: #eff4fd;
+    padding: 10px 20px;
+    border-radius: 7px;
+    margin-left: 3%;
+    margin-top: 5%;
+    text-decoration: none;
+}
+.images{
+    height: 85%;
+    width: 45%;
+    position: absolute;
+    bottom: 0;
+    right: 5% ;
+    top: 20% 
+    /* display: flex; */
+}
+.images img{
+    position: absolute;
+    height: 50%;
+    width : 70%;
+    bottom:30%;
+   transition:  2s;
+   border-radius: 50px;
+   -webkit-transition: opacity 1s ease-in-out;
+}
+.images:hover .top {
+    opacity: 0;
+}
+/* 
+.images:hover .girl {
+    left: 50px ;
+} */
+.social{
+    margin-top: 0%;
+    margin-right: 330px;
+
+    
+}
+.social a{
+    font-size: larger;
+    display: inline-block;
+    width: 50px;
+    float:right;
+    color: #212121;
+    /* margin-right: 100px; */
+}
